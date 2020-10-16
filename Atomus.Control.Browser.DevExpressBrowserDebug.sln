@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{37762C8E-1C8B-45E9-98C7-7910160F881F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dotNet", "dotNet", "{E2C4199E-81F0-409A-B179-3824D472CE87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Control.Browser.DevExpressBrowserDebug.v18.1(dotNet)", "dotNet\DevExpress.v18.1\Atomus.Control.Browser.DevExpressBrowserDebug.v18.1(dotNet).csproj", "{AF11122A-4203-4F70-878A-69E449FDC54A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers", "{027CEA6F-CA1F-428A-9C53-8AE1FD9C4A9C}"
+	ProjectSection(SolutionItems) = preProject
+		src\Controllers\DefaultLoginController.cs = src\Controllers\DefaultLoginController.cs
+		src\Controllers\DefaultMenuController.cs = src\Controllers\DefaultMenuController.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{344BBBFF-53F5-44F6-86DB-66B81387516E}"
+	ProjectSection(SolutionItems) = preProject
+		src\Models\DefaultLoginSearchModel.cs = src\Models\DefaultLoginSearchModel.cs
+		src\Models\DefaultMenuSearchModel.cs = src\Models\DefaultMenuSearchModel.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Views", "Views", "{F2FAF100-86A1-4B7B-A742-31ED797A63C6}"
+	ProjectSection(SolutionItems) = preProject
+		src\Views\DefaultBrowserDebug.cs = src\Views\DefaultBrowserDebug.cs
+		src\Views\DefaultBrowserDebug.Designer.cs = src\Views\DefaultBrowserDebug.Designer.cs
+		src\Views\DefaultBrowserDebug.resx = src\Views\DefaultBrowserDebug.resx
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Control.Browser.DevExpressBrowserDebug.v20.1(dotNet)", "dotNet\DevExpress.v20.1\Atomus.Control.Browser.DevExpressBrowserDebug.v20.1(dotNet).csproj", "{2374C160-C2ED-4F7C-9D28-DC1537380786}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF11122A-4203-4F70-878A-69E449FDC54A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF11122A-4203-4F70-878A-69E449FDC54A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF11122A-4203-4F70-878A-69E449FDC54A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF11122A-4203-4F70-878A-69E449FDC54A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2374C160-C2ED-4F7C-9D28-DC1537380786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2374C160-C2ED-4F7C-9D28-DC1537380786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2374C160-C2ED-4F7C-9D28-DC1537380786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2374C160-C2ED-4F7C-9D28-DC1537380786}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AF11122A-4203-4F70-878A-69E449FDC54A} = {E2C4199E-81F0-409A-B179-3824D472CE87}
+		{027CEA6F-CA1F-428A-9C53-8AE1FD9C4A9C} = {37762C8E-1C8B-45E9-98C7-7910160F881F}
+		{344BBBFF-53F5-44F6-86DB-66B81387516E} = {37762C8E-1C8B-45E9-98C7-7910160F881F}
+		{F2FAF100-86A1-4B7B-A742-31ED797A63C6} = {37762C8E-1C8B-45E9-98C7-7910160F881F}
+		{2374C160-C2ED-4F7C-9D28-DC1537380786} = {E2C4199E-81F0-409A-B179-3824D472CE87}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {874CD64D-ABE5-41DC-A13D-4559964D30F1}
+	EndGlobalSection
+EndGlobal
